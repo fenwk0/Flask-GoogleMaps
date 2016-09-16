@@ -23,7 +23,7 @@ On windows
 
 $ python setup.py install
 
-On Linux then
+On Linux (requires sudo access to install)
 
 $ sudo python setup.py install
 
@@ -33,6 +33,7 @@ $ sudo python setup.py install
 
 ```bash
 $ cd Flask-GoogleMaps/examples
+
 $ python example.py
 
 ```
