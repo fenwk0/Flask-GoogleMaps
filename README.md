@@ -21,11 +21,11 @@ $ cd Flask-GoogleMaps
 
 On windows
 
-python setup.py install
+$ python setup.py install
 
 On Linux then
 
-sudo python setup.py install
+$ sudo python setup.py install
 
 ```
 
