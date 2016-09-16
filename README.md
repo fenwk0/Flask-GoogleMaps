@@ -15,26 +15,27 @@ Look the Live DEMO: http://flaskgooglemaps.pythonanywhere.com
 ### Installation
 
 ```bash
-$ git clone https://github.com/fenwk0/Flask-GoogleMaps.git
-
-$ cd Flask-GoogleMaps
 
 On windows
 
-$ python setup.py install
+git clone https://github.com/fenwk0/Flask-GoogleMaps.git
+cd Flask-GoogleMaps
+python setup.py install
 
 On Linux (requires sudo access to install)
 
-$ sudo python setup.py install
+git clone https://github.com/fenwk0/Flask-GoogleMaps.git
+cd Flask-GoogleMaps
+sudo python setup.py install
 
 ```
 
 ### Run the example app
 
 ```bash
-$ cd Flask-GoogleMaps/examples
 
-$ python example.py
+cd Flask-GoogleMaps/examples
+python example.py
 
 ```
 
