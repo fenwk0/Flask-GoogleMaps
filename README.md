@@ -4,7 +4,9 @@ Easy to use Google Maps in your Flask application
 
 Look the Live DEMO: http://flaskgooglemaps.pythonanywhere.com
 
-### requires
+### Project dependencies
+
+
 - Jinja
 - Flask
 - A google api key [get here](https://developers.google.com/maps/documentation/javascript/get-api-key)
@@ -12,16 +14,29 @@ Look the Live DEMO: http://flaskgooglemaps.pythonanywhere.com
 
 ### Installation
 
-```pip install flask-googlemaps```
-
-or
-
 ```bash
 git clone https://github.com/fenwk0/Flask-GoogleMaps.git
 cd Flask-GoogleMaps
+
+the on windows
+
 python setup.py install
+
+or if you're running on Linux then
+
+sudo python setup.py install
+
 ```
 
+### Run the example app
+
+```bash
+$ cd Flask-GoogleMaps/examples
+$ python example.py
+
+```
+
+Access: http://localhost:5000/ and http://localhost:5000/fullmap
 
 ### How it works
 
@@ -209,17 +224,6 @@ Which results in something like the following map:
 <img width="1439" alt="screen shot 2015-07-29 at 2 41 52 pm" src="https://cloud.githubusercontent.com/assets/8108300/8969650/13b0de7a-3602-11e5-9ed0-9f328ac9253f.png">
 
 
-### Run the example app
-
-```bash
-$ git clone https://github.com/rochacbruno/Flask-GoogleMaps
-$ cd Flask-GoogleMaps/examples
-$ python setup.py develop
-$ python example.py
-
-```
-
-Access: http://localhost:5000/ and http://localhost:5000/fullmap
 
 ### TODO (open a Pull Request):
 
