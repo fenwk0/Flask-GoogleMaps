@@ -17,7 +17,7 @@ Look the Live DEMO: http://flaskgooglemaps.pythonanywhere.com
 or
 
 ```bash
-git clone https://github.com/rochacbruno/Flask-GoogleMaps
+git clone https://github.com/fenwk0/Flask-GoogleMaps.git
 cd Flask-GoogleMaps
 python setup.py install
 ```
