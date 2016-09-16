@@ -15,14 +15,15 @@ Look the Live DEMO: http://flaskgooglemaps.pythonanywhere.com
 ### Installation
 
 ```bash
-git clone https://github.com/fenwk0/Flask-GoogleMaps.git
-cd Flask-GoogleMaps
+$ git clone https://github.com/fenwk0/Flask-GoogleMaps.git
 
-the on windows
+$ cd Flask-GoogleMaps
+
+On windows
 
 python setup.py install
 
-or if you're running on Linux then
+On Linux then
 
 sudo python setup.py install
 
@@ -36,7 +37,7 @@ $ python example.py
 
 ```
 
-Access: http://localhost:5000/ and http://localhost:5000/fullmap
+Access: http://localhost:5000/, http://localhost:5000/geo-locate and http://localhost:5000/fullmap
 
 ### How it works
 
