@@ -18,32 +18,34 @@ def geolocate():
     trdmap = Map(
         identifier="trdmap",
         varname="trdmap",
-        lat=37.4419,
-        lng=-122.1419,
+        lat=50.742728,
+        lng=-1.8281366,
+        style="height:600px;width:600px;margin:0;",
+        zoom=26,
         markers=[
             {
                 'icon': icons.alpha.B,
-                'lat': 37.4419,
-                'lng': -122.1419,
-                'infobox': "Hello I am <b style='color:green;'>GREEN</b>!"
+                'lat': 50.7450131,
+                'lng': -1.8292743,
+                'infobox': "Duck Pond<b style='color:green;'>GREEN</b>!"
             },
             {
                 'icon': icons.dots.blue,
-                'lat': 37.4300,
-                'lng': -122.1400,
-                'infobox': "Hello I am <b style='color:blue;'>BLUE</b>!"
-            },
-            {
-                'icon': '//maps.google.com/mapfiles/ms/icons/yellow-dot.png',
-                'lat': 37.4500,
-                'lng': -122.1350,
-                'infobox': (
-                    "Hello I am <b style='color:#ffcc00;'>YELLOW</b>!"
-                    "<h2>It is HTML title</h2>"
-                    "<img src='//placehold.it/50'>"
-                    "<br>Images allowed!"
-                )
+                'lat': 50.7432887,
+                'lng': -1.8296045,
+                'infobox': "Dojo<b style='color:blue;'>BLUE</b>!"
             }
+            # {
+            #     'icon': '//maps.google.com/mapfiles/ms/icons/yellow-dot.png',
+            #     'lat': 37.4500,
+            #     'lng': -122.1350,
+            #     'infobox': (
+            #         "Hello I am <b style='color:#ffcc00;'>YELLOW</b>!"
+            #         "<h2>It is HTML title</h2>"
+            #         "<img src='//placehold.it/50'>"
+            #         "<br>Images allowed!"
+            #
+
         ]
     )
 
